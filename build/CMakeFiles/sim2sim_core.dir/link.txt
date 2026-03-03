@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsim2sim_core.a CMakeFiles/sim2sim_core.dir/src/mujoco_state_subscriber.cpp.o CMakeFiles/sim2sim_core.dir/src/observation_builder.cpp.o CMakeFiles/sim2sim_core.dir/src/rl_onnx_policy.cpp.o CMakeFiles/sim2sim_core.dir/src/action_codec.cpp.o CMakeFiles/sim2sim_core.dir/src/sim2sim_controller_node.cpp.o
+/usr/bin/ranlib libsim2sim_core.a
