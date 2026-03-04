@@ -1,0 +1,21 @@
+action_process_node:
+  ros__parameters:
+    raw_action_topic: "/policy/raw_action"
+    action_final_topic: "/robot/action_final"
+    controlled_joint_names:
+      - "left_hip_roll_joint"
+      - "left_hip_yaw_joint"
+      - "left_hip_pitch_joint"
+      - "left_knee_joint"
+      - "left_ankle_pitch_joint"
+      - "right_hip_roll_joint"
+      - "right_hip_yaw_joint"
+      - "right_hip_pitch_joint"
+      - "right_knee_joint"
+      - "right_ankle_pitch_joint"
+    action_dim: 10
+    action_scale: 1.0
+    enable_clip: false
+    clip_min: -10.0
+    clip_max: 10.0
+    hold_last_on_invalid: true

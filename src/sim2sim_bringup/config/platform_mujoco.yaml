@@ -1,0 +1,24 @@
+mujoco_node:
+  ros__parameters:
+    xml_path: "/home/jf/lab/3_my_projects/Project02_sim2sim/assets/Mvr_model/Mvr_10dof/Mvr_10dof.xml"
+    action_topic: "/robot/action_final"
+    joint_state_topic: "/robot/joint_state"
+    controlled_joint_names:
+      - "left_hip_roll_joint"
+      - "left_hip_yaw_joint"
+      - "left_hip_pitch_joint"
+      - "left_knee_joint"
+      - "left_ankle_pitch_joint"
+      - "right_hip_roll_joint"
+      - "right_hip_yaw_joint"
+      - "right_hip_pitch_joint"
+      - "right_knee_joint"
+      - "right_ankle_pitch_joint"
+    sim_hz: 500.0
+    pub_hz: 100.0
+    enable_viewer: true
+    viewer_width: 1280
+    viewer_height: 720
+    viewer_hz: 60.0
+    clamp_to_ctrl_range: true
+    hold_last_action_timeout_ms: 100

@@ -1,0 +1,16 @@
+obs_process_node:
+  ros__parameters:
+    joint_state_topic: "/robot/joint_state"
+    raw_action_topic: "/policy/raw_action"
+    obs_topic: "/policy/obs"
+    controlled_joint_names:
+      - "left_hip_roll_joint"
+      - "left_hip_yaw_joint"
+      - "left_hip_pitch_joint"
+      - "left_knee_joint"
+      - "left_ankle_pitch_joint"
+      - "right_hip_roll_joint"
+      - "right_hip_yaw_joint"
+      - "right_hip_pitch_joint"
+      - "right_knee_joint"
+      - "right_ankle_pitch_joint"

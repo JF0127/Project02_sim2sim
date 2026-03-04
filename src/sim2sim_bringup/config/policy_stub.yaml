@@ -1,0 +1,8 @@
+rl_policy_node:
+  ros__parameters:
+    obs_topic: "/policy/obs"
+    raw_action_topic: "/policy/raw_action"
+    action_dim: 10
+    obs_dim_expected: 30
+    policy_mode: "copy_last_action"
+    action_scale: 1.0
